@@ -28,5 +28,10 @@
                 listBox1.Items.Add(frm2.PubText);       // Добавляем из свойства формы значение в список
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
