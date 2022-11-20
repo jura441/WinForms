@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_Week_2", "DZ_Week_2\DZ_W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_Calendar", "DZ_Calendar\DZ_Calendar.csproj", "{17049EE1-6BB4-4E8D-BC00-1505A168F820}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz_Week_3", "Dz_Week_3\Dz_Week_3.csproj", "{06A5EDE7-8DBA-4F69-94FB-D8C89F56705C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{17049EE1-6BB4-4E8D-BC00-1505A168F820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17049EE1-6BB4-4E8D-BC00-1505A168F820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17049EE1-6BB4-4E8D-BC00-1505A168F820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A5EDE7-8DBA-4F69-94FB-D8C89F56705C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A5EDE7-8DBA-4F69-94FB-D8C89F56705C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A5EDE7-8DBA-4F69-94FB-D8C89F56705C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A5EDE7-8DBA-4F69-94FB-D8C89F56705C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
