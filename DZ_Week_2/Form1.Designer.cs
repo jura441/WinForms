@@ -44,7 +44,7 @@ namespace DZ_Week_2
             this.addTopLevelMenuButton.TabIndex = 2;
             this.addTopLevelMenuButton.Text = "Добавить пункт меню";
             this.addTopLevelMenuButton.UseVisualStyleBackColor = true;
-            this.addTopLevelMenuButton.Click += new System.EventHandler(this.TopLevelButton_Click);
+            this.addTopLevelMenuButton.Click += new System.EventHandler(this.addTopLevelMenuButton_Click);
             // 
             // AddSubItemButton
             // 
@@ -78,7 +78,7 @@ namespace DZ_Week_2
             this.menuStrip.TabIndex = 6;
             this.menuStrip.Text = "menuStrip";
             // 
-            // Menu
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -89,8 +89,9 @@ namespace DZ_Week_2
             this.Controls.Add(this.addTopLevelMenuButton);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
-            this.Name = "Menu";
+            this.Name = "Form1";
             this.Text = "Menu";
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

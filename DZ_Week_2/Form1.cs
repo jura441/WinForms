@@ -37,5 +37,15 @@ namespace DZ_Week_2
                 }
             }
         }
+
+        private void addTopLevelMenuButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }
