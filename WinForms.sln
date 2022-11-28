@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMoveClick", "MouseMove
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_Week_2", "DZ_Week_2\DZ_Week_2.csproj", "{A8D5B691-14A7-482C-9DCD-C7D09D9E5E6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_Week2_5", "DZ_Week2_5\DZ_Week2_5.csproj", "{1918700C-7352-4594-ACA5-086677680BEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DZ_Week2_5", "DZ_Week2_5\DZ_Week2_5.csproj", "{1918700C-7352-4594-ACA5-086677680BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_Week_3_bus", "DZ_Week_3_bus\DZ_Week_3_bus.csproj", "{2BA447B3-1271-4220-A420-8EBF519D1983}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1918700C-7352-4594-ACA5-086677680BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1918700C-7352-4594-ACA5-086677680BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1918700C-7352-4594-ACA5-086677680BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA447B3-1271-4220-A420-8EBF519D1983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA447B3-1271-4220-A420-8EBF519D1983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA447B3-1271-4220-A420-8EBF519D1983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA447B3-1271-4220-A420-8EBF519D1983}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
