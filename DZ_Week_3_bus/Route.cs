@@ -26,7 +26,7 @@ namespace DZ_Week_3_bus
         }
         public override string ToString()
         {
-            return Busnumber.ToString() + "     |       " + BusType.ToString() + "      |        " + BusDestination.ToString() + "      |       " + DateFrom.ToString() + "         |       " + DateTo.ToString();
+            return      Busnumber.ToString() +      "                             |       " + BusType.ToString() + "             |        " + BusDestination.ToString() + "               |       " + DateFrom.ToString() + "              |       " + DateTo.ToString();
         }
     }
 }

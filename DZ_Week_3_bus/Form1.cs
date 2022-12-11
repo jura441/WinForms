@@ -34,10 +34,40 @@ namespace DZ_Week_3_bus
         {
 
         }
-
         private void label4_Click(object sender, EventArgs e)
         {
 
         }
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_defaultRoute_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            for (int i = 0; i < routes.Count; i++)
+            {
+                listBox1.Items.Add(routes[i]);
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            DateTime dateFilter = DateTime.Now.Date;
+            dateFilter = dateFilter.AddDays(1);
+            dateFilter = dateFilter.AddHours(Double.Parse(tb_destHours.Text));
+            dateFilter = dateFilter.AddMinutes(Double.Parse(tb_destMinutes.Text));
+            dateFilter = dateFilter.AddSeconds(Double.Parse(tb_destSeconds.Text));
+            foreach (Route route in routes)
+            {
+
+                if (route.BusDestination.Trim().ToLower() == tb_destination.Text.Trim().ToLower() && route.DateTo < dateFilter)
+                {
+                    listBox1.Items.Add(route.ToString());
+                }
+            }
+        }
     }
-}
+
+    }
