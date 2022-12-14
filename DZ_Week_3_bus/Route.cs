@@ -28,5 +28,19 @@ namespace DZ_Week_3_bus
         {
             return      Busnumber.ToString() +      "                             |       " + BusType.ToString() + "             |        " + BusDestination.ToString() + "               |       " + DateFrom.ToString() + "              |       " + DateTo.ToString();
         }
+
+        public DateTime getDateTo()
+        {
+            return DateFrom;
+        }
+        public DateTime getDateFrom()
+        {
+            return DateTo;
+        }
+
+        public string getBusDestination()
+        {
+            return BusDestination;
+        }
     }
 }

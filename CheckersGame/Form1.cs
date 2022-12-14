@@ -37,8 +37,8 @@ namespace CheckersGame
         {
             InitializeComponent();
 
-            whiteFigure = new Bitmap(new Bitmap(@"C:\Users\Admin\Downloads\w.png"), new Size(cellSize - 10, cellSize - 10));
-            blackFigure = new Bitmap(new Bitmap(@"C:\Users\Admin\Downloads\b.png"), new Size(cellSize - 10, cellSize - 10));
+            whiteFigure = new Bitmap(new Bitmap(@"C:\Users\student\Downloads\w.png"), new Size(cellSize - 10, cellSize - 10));
+            blackFigure = new Bitmap(new Bitmap(@"C:\Users\student\Downloads\b.png"), new Size(cellSize - 10, cellSize - 10));
 
             this.Text = "Checkers";
 
